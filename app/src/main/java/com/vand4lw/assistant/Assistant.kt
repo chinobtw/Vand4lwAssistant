@@ -79,7 +79,7 @@ class Assistant(private val svc: ControlService) {
                 "generation_config", JSONObject()
                     .put("temperature", 0.2)
                     .put("response_mime_type", "application/json")
-                    .put("thinking_level", "low")
+                    .put("thinkingConfig", JSONObject().put("thinkingLevel", "low"))
             )
 
         val req = Request.Builder()
