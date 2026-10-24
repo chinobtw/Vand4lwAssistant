@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_desc">Permite que el asistente toque, escriba y navegue por el celu cuando se lo pedís por voz.</string>
+</resources>
